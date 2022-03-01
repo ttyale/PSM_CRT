@@ -1,0 +1,8 @@
+This is the code of simulation for the manuscript entitled "A Bayesian approach for estimating the survival average causal effect when outcomes are truncated by death in cluster-randomized trials."
+Authors: Guangyu Tong*, Fan Li, Xinyuan Chen, Shashivadan P Hirani, Stanton P Newman, Wei Wang, Michael O Harhay
+This folder includes 1 file with the following functions:
+ 1. gendata(): Data generating process for the simulation of cluster randomized trials
+ 2. uvsampler(): MCMC sampler combining Gibbs and MH algorithm for the model estimation
+ 3. sim0(): Simulation function as a wrapper of gendata() and uvsampler()
+ 4. sumstat(): Generate summary for simulation results
+ 5. icc_calculation(): Calculate the ICC based on simulation results
